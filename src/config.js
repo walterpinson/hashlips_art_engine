@@ -12,14 +12,13 @@ const layerConfigurations = [
   {
     growEditionSizeTo: 10,
     layersOrder: [
-      { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid" },
-      { name: "Top lid" },
-    ],
+      { name: 'background' },
+      { name: 'edition' },
+      { name: 'logo' },
+      { name: 'coin' },
+      { name: 'subs' },
+      { name: 'signature' }
+      ],
   },
 ];
 
@@ -28,8 +27,8 @@ const shuffleLayerConfigurations = false;
 const debugLogs = false;
 
 const format = {
-  width: 512,
-  height: 512,
+  width: 1000,
+  height: 1000,
 };
 
 const background = {
